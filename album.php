@@ -6,20 +6,11 @@
 </head>
 <body>
 <!-- 
-Name: Vinayak Ravindra Tare
-Student id: 1001453869
 -->
 
 <?php
 /** 
  * DropPHP sample
- *
- * http://fabi.me/en/php-projects/dropphp-dropbox-api-client/
- *
- * @author     Fabian Schlieper <fabian@fabi.me>
- * @copyright  Fabian Schlieper 2012
- * @version    1.1
- * @license    See license.txt
  *
  */
 
@@ -31,8 +22,8 @@ require_once("DropboxClient.php");
 
 // you have to create an app at https://www.dropbox.com/developers/apps and enter details below:
 $dropbox = new DropboxClient(array(
-	'app_key' => "pgpe92dzcwkq0q0",      // Put your Dropbox API key here
-	'app_secret' => "uicl3gwhfzhh5n5",   // Put your Dropbox API secret here
+	'app_key' => ,      // Put your Dropbox API key here
+	'app_secret' =>    // Put your Dropbox API secret here
 	'app_full_access' => false,
 ),'en');
 
