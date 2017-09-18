@@ -1,13 +1,7 @@
 <?php
 /** 
  * DropPHP sample
- *
- * http://fabi.me/en/php-projects/dropphp-dropbox-api-client/
- *
- * @author     Fabian Schlieper <fabian@fabi.me>
- * @copyright  Fabian Schlieper 2012
- * @version    1.1
- * @license    See license.txt
+ 
  *
  */
 
@@ -19,8 +13,8 @@ require_once("DropboxClient.php");
 
 // you have to create an app at https://www.dropbox.com/developers/apps and enter details below:
 $dropbox = new DropboxClient(array(
-	'app_key' => "vxyjsj24c8ve21m",      // Put your Dropbox API key here
-	'app_secret' => "o84mz3ax8ed42rw",   // Put your Dropbox API secret here
+	'app_key' => "",      // Put your Dropbox API key here
+	'app_secret' => "",   // Put your Dropbox API secret here
 	'app_full_access' => false,
 ),'en');
 
