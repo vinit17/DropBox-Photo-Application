@@ -1,15 +1,7 @@
 <?php
 /**
  * DropPHP - A simple Dropbox client that works without cURL.
- *
- * http://fabi.me/en/php-projects/dropphp-dropbox-api-client/
- *
- *
- * @author     Fabian Schlieper <fabian@fabi.me>
- * @copyright  Fabian Schlieper 2014
- * @version    1.7.1
- * @license    See LICENSE
- *
+ 
  */
 
 require_once(dirname(__FILE__)."/OAuthSimple.php");
